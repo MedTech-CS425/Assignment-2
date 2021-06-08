@@ -1,0 +1,81 @@
+.basketWrapper {
+    height: fit-content;
+    width :fit-content  ;
+    background: #FFF0DE;
+}
+
+.addItemWrapper{
+    width: 308.76px;
+    height: 125px;    
+    background: #80485B;
+    border-radius: 24px;
+    margin : 43px ;
+    display : flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+} 
+.addItemWrapper h2 {
+    text-align: left;
+    margin-left:30px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width:170px;
+    margin-bottom: 13px;
+}
+.addItemWrapper button {
+    margin-left:30px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    border:none;
+    margin : 0;
+    padding : 11px 29px;
+    cursor: pointer;
+}
+.labelWrapper {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.labelWrapper h2 {
+    margin-left:48px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #34333A;
+    padding : 0px ;
+
+
+}
+.labelWrapper span {
+    font-size : 20px;
+    margin-right: 31px;
+}
+.itemWrapper {
+    margin : 0 45px;
+    text-align: left;    
+}
+.itemWrapper h1 {
+    color :#828282;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.infoWrapper {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+.infoWrapper h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
