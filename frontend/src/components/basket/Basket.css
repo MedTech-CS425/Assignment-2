@@ -1,11 +1,11 @@
 .basketWrapper {
     height: fit-content;
-    width :fit-content  ;
+    width : 350px  ;
     background: #FFF0DE;
 }
 
 .addItemWrapper{
-    width: 308.76px;
+    width: 290.76px;
     height: 125px;    
     background: #80485B;
     border-radius: 24px;
@@ -78,4 +78,35 @@
     font-size: 18px;
     line-height: 22px;
     color: #000000;
+}
+.submitBtn {
+    width: 100% ;
+    background: #FFFFFF;
+    padding: 34px 39px;
+}
+.inputWrapper{
+    width:309px;
+    height: 61px;
+    border: 2px solid #F9A109;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.inputWrapper input {
+    border : none;
+    border-radius: 12px;
+    color : #BDBDBD;
+    padding:5px 25px;
+}
+.inputWrapper button {
+    width:100px;
+    border: 0; 
+    background: #F9A109;
+    border-radius: 12px;
+    color : #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
 }

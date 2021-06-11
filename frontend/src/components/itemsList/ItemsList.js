@@ -1,13 +1,10 @@
 import './itemsList.css'
-function itemsList() {
+function itemsList(props) {
+    let items = props.items
 
-    var items = [
-        { name: "Fish", elements: ["Fish1", "Fish2", "Fish3"] },
-        { name: "Meat", elements: ["Very Long Named Meat Shit", "Meat2", "Meat3", "meat5", "Meat6"] },
-        { name: "Fruits", elements: ["Avocado", "Apple", "WaterMelon"] }
-
-    ]
-
+    function addToBucket(category, item) {
+        props.addToBucket(category, item);
+    }
     return (
         <div className="wrapper">
 
@@ -15,12 +12,12 @@ function itemsList() {
                 <h2><span>Shoppingify</span> allows you take your shopping list whenever you go</h2>
                 <div className="search">
                     <span className="material-icons">search</span>
-                    <input value="Search"></input>
+                    <input ></input>
                 </div>
             </div>
             {
                 items.map((element) => {
-                    return <div className="categoryWrapper">
+                    return <div className="categoryWrapper" key={element.name}>
 
                         <h1>{element.name}</h1>
 
@@ -28,9 +25,9 @@ function itemsList() {
                             {
                                 element.elements.map((item) => {
                                     return (
-                                        <button className="itemBtn">
-                                            <h2>{item}</h2>
-                                            <span class="material-icons"> add</span>
+                                        <button className="itemBtn" onClick={() => { addToBucket(element.name, item) }} key={item.id}>
+                                            <h2>{item.label}</h2>
+                                            <span className="material-icons"> add</span>
                                         </button>
                                     )
 

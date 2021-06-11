@@ -6,9 +6,9 @@ function SideNav() {
         <div className="SideNav">
             <ReactLogo />
             <div className="iconsWrapper">
-                <span class="material-icons">category</span>
-                <span class="material-icons">refresh</span>
-                <span class="material-icons">query_stats</span>
+                <span className="material-icons">category</span>
+                <span className="material-icons">refresh</span>
+                <span className="material-icons">query_stats</span>
             </div>
             <Logo />
         </div>
