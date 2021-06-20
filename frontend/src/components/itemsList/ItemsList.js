@@ -17,15 +17,15 @@ function itemsList(props) {
             </div>
             {
                 items.map((element) => {
-                    return <div className="categoryWrapper" key={element.name}>
+                    return <div className="categoryWrapper" key={element.category}>
 
-                        <h1>{element.name}</h1>
+                        <h1>{element.category}</h1>
 
                         <div className="itemsWrapper">
                             {
                                 element.elements.map((item) => {
                                     return (
-                                        <button className="itemBtn" onClick={() => { addToBucket(element.name, item) }} key={item.id}>
+                                        <button className="itemBtn" onClick={() => { addToBucket(element.category, item) }} key={item.id}>
                                             <h2>{item.label}</h2>
                                             <span className="material-icons"> add</span>
                                         </button>

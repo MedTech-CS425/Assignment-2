@@ -2,9 +2,12 @@ import './Basket.css'
 import { ReactComponent as BottleLogo } from '../../assets/source.svg'
 import { useState } from 'react'
 function Basket(props) {
-    let list = props.list
+    let list = props.basketList
     let [inputLabel, setInputLabel] = useState("Enter A Name")
 
+    function addNewItem() {
+        props.addNewItem();
+    }
     function handleInputChange() {
         setInputLabel(document.getElementById("input").value)
     }
@@ -14,7 +17,7 @@ function Basket(props) {
                 <BottleLogo />
                 <div>
                     <h2>Didn't Find what you need ?</h2>
-                    <button>Add Item</button>
+                    <button onClick={addNewItem}>Add Item</button>
                 </div>
             </div>
 
