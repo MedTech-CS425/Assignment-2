@@ -9,6 +9,8 @@ function RightPannel(props) {
     let categories = props.categories
     let empty = props.empty
     let [addNew, setAddNew] = useState(false);
+    //a//
+
     function addNewItem() {
         setAddNew(true);
     }
