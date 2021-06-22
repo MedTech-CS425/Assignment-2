@@ -110,3 +110,11 @@
     line-height: 20px;
     cursor: pointer;
 }
+.emptyLabel {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #34333A;
+    margin : 100px 0 ;
+}

@@ -2,8 +2,8 @@ import './itemsList.css'
 function itemsList(props) {
     let items = props.items
 
-    function addToBucket(category, item) {
-        props.addToBucket(category, item);
+    function addToBucket(item) {
+        props.addToBucket(item);
     }
     return (
         <div className="wrapper">
@@ -25,7 +25,7 @@ function itemsList(props) {
                             {
                                 element.elements.map((item) => {
                                     return (
-                                        <button className="itemBtn" onClick={() => { addToBucket(element.category, item) }} key={item.id}>
+                                        <button className="itemBtn" onClick={() => { addToBucket(item) }} key={item.id}>
                                             <h2>{item.label}</h2>
                                             <span className="material-icons"> add</span>
                                         </button>
