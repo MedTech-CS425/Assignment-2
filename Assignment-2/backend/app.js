@@ -286,6 +286,6 @@ app.delete('/deleteCategory/:id',async(req,res)=>{
 
 
 
-app.listen(3000,()=>{
-    console.log("ur own server is listening on port 3000");
+app.listen(5000,()=>{
+    console.log("ur own server is listening on port 5000");
 })
