@@ -2,7 +2,7 @@ Assignment #2 & #3
 
 Assignment: Create my Shoppingify app. Use any front-end libraries of your choice. Link it to your API that was done on assignment #1. Fulfill user stories below:
 
-    User story 1: When I select the items tab, I can see a list of items under different categories.
+    User story 1: When I select the items tab, I can see a list of items under different categories.//done
     User story 2: I can add a new item with name, category, note, and image.
     User story 3: When I add a new item, I can select one from the existing categories or add a new one if the category does not exist
     User story 4: When I select an item, I can see its details and I can choose to add the current list or delete the item.
