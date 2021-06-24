@@ -26,7 +26,7 @@ const Login = () => {
 
    
 
-        axios.post('http://localhost:3001/item', Item)
+        axios.post('http://localhost:3000/item', Item)
     })
 
 
