@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin :  0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.one{
+  height: 66px;
+width: 450.29400634765625px;
+left: 174.418212890625px;
+top: 37.49853515625px;
+border-radius: nullpx;
+
+  color: orange;
+}
+.navbar  h1 {
+height: 66px;
+width: 450.29400634765625px;
+left: 174.418212890625px;
+top: 37.49853515625px;
+border-radius: nullpx;
+
+
+}
+.input navbar  {
+
+   width: 200%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+.imagesearch {
+
+height: 18.47963523864746px;
+width: 18.46880340576172px;
+left: 681.07080078125px;
+top: 27.7099609375px;
+border-radius: 0px;
+
+
+}
+
+.search {
+
+  height: 50.9162712097168px;
+width: 275.60760498046875px;
+float: left;
+top: 27.7099609375px;
+border-radius: 12px;}
+
+.image {
+
+top: 100%;
+
+}
+
+.image1 {
+
+height: 42px;
+width: 42px;
+border-radius: 0px;
+position: fixed;
+top: 540px;
+float: left
+
+ 
+}
+
+.image2 {
+
+  height: 16.25px;
+width: 20.04166603088379px;
+left: 2.708251953125px;
+top: 4.875px;
+border-radius: 0px;
+
+}
+ .links {
+  margin-left: auto;
+}
+
+.barleft{
+  height: 907px;
+width: 93.915283203125px;
+float: left;
+top: -15px;
+border-radius: 0px;
+
+}
+
+
+.item {
+
+  height: 907px;
+width: 93.915283203125px;
+float: right;
+top: -15px;
+border-radius: 0px;
+
+}
+
+.item  label   {
+  text-align: left;
+  display: block;
+}
+.item h2  {
+  font-size: 20px;
+  color:orange;
+  margin-bottom: 30px;
+}
+.item  input {
+  width: 300%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.item button{
+  background: orange;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.category label  {
+  text-align: left;
+  display: block;
+}
+.category  h2   {
+  top: 50px;
+  font-size: 20px;
+  color: orange;
+  margin-bottom: 30px;
+}
+.category input{
+  width: 50%;
+    display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.category button{
+  background: orange;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.links {
+  background: orange;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.links1 {
+  background: orange;
+  color: #fff;
+  border: 0;
+  float:left;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+ .navbar .links .links1 {
+  margin-left: auto;
+}
+.see {
+  font-size: 5px;
+  color: #f1356d;
+  margin-bottom: 10px;
+  text-align: left;
+  top: 100px
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 150px;
+  margin : auto;
+  text-align: center;
+  font-family: arial;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card .image {
+  width:100%
+}
+
+.list {
+
+  height: 907px;
+width: 93.915283203125px;
+float: right;
+top: -15px;
+border-radius: 0px;
+
+}
+
+.list  label   {
+  text-align: left;
+  display: block;
+}
+.list h2  {
+  font-size: 20px;
+  color:orange;
+  margin-bottom: 30px;
+}
+.list input{
+  width: 300%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.list button{
+  background: orange;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.see {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.see:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.register{
+  max-width: 400px;
+  margin :  0 auto;
+  text-align: center;
+}
+.register label  {
+  text-align: left;
+  display: block;
+}
+.register h2  {
+  font-size: 20px;
+  color: orange;
+  margin-bottom: 30px;
+}
+.register input, .create textarea, .register select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.register button{
+  background: orange;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.register p {
+ color: orange; }
+
+
+ .login{
+  max-width: 400px;
+  margin :  0 auto;
+  text-align: center;
+}
+.login label  {
+  text-align: left;
+  display: block;
+}
+.login h2  {
+  font-size: 20px;
+  color: orange;
+  margin-bottom: 30px;
+}
+.logical  input , .Create  textarea , .register  select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.login button{
+  background: orange;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login p {
+ color: orange; }
+
+
+ .links3 {
+  background: orange;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+   width: 100px;
+
+}
+.links4{
+  background: orange;
+  color: #fff;
+  border: 0;
+ 
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100px;
+}
+.hello {
+   color: orange;
+}
