@@ -1,0 +1,47 @@
+
+
+<div class="container">
+  <a class="btn btn-outline-primary" routerLinkActive="active" routerLink="/seller/product-create">Add Products</a>
+  <br/>
+  <!-- No data message -->
+  <p *ngIf="Orders.length <= 0" class="no-data text-center">There is no Orders added yet!</p>
+
+  <!-- Employee list -->
+  <table class="table table-bordered" *ngIf="Orders.length > 0">
+    <thead class="table-success">
+      <tr>
+        <th scope="col">Order ID</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Customer Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Status</th>
+        <th scope="col">Created on</th>
+        <th scope="col center">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let order of Orders; let i = index">
+        <th scope="row">{{order._id}}</th>
+        <td>{{order.productId.name}}</td>
+        <td>{{order.customerId.name}}</td>
+        <td>{{order.productId.price}}</td>
+        <td>{{order.status}}</td>
+        <td>{{order.createdOn | date}}</td>
+        <td class="text-center edit-block">
+          <ng-container *ngIf="order.status === 'Pending'">
+            <span class="edit" (click)="updateOrder('accept',order, i)">
+              <button type="button" class="btn btn-success btn-sm">A</button>
+            </span>
+            <span class="delete" (click)="updateOrder('reject',order, i)">
+              <button type="button" class="btn btn-danger btn-sm">R</button>
+            </span>
+          </ng-container>
+          <ng-container *ngIf="order.status != 'Pending'">
+            {{order.status}}
+          </ng-container>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
