@@ -16,7 +16,7 @@ const List = () => {
 
         const List = { name, user_id, createdat, updatedat };
 
-        axios.post('http://localhost:3001/list', List)
+        axios.post('http://localhost:3000/list', List)
     })
 
 
