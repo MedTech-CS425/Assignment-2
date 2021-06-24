@@ -1,0 +1,59 @@
+.pannelWrapper{
+width: 900px;
+padding : 37px 80px 0px 64px;
+}
+.title {
+    font-size: 26px;
+    line-height: 32px;
+    color: #34333A;
+    text-align: start;
+}
+.listWrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 12px; 
+    width: 730.96px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 28px 0 ;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    cursor:pointer;
+}
+
+
+.listWrapper h2 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.listWrapper h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C1C1C4;
+    margin : 0 13px;
+}
+.listWrapper .leftSection {
+    color: #C1C1C4;
+    display :inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.listWrapper label {      
+    border: 1px solid #56CCF2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 4px 7px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #56CCF2;
+    margin : 0 34px;
+}
