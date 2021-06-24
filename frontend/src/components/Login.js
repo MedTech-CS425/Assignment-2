@@ -20,6 +20,8 @@ const Login = () => {
 
         e.preventDefault();
 
+        history.push('/home');
+
         const verify = {
             email: email,
             password: password
@@ -28,8 +30,8 @@ const Login = () => {
         console.log(email, password)
 
         axios.post('http://localhost:3001/login', verify).then(function (Response) {
-
-
+           
+        
 
             console.log(Response);
         })

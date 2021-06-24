@@ -89,7 +89,7 @@ top: 4.875px;
 border-radius: 0px;
 
 }
-.navbar .links {
+ .links {
   margin-left: auto;
 }
 
@@ -168,7 +168,7 @@ border-radius: 0px;
   cursor: pointer;
 }
 
-.navbar .links {
+.links {
   background: orange;
   color: #fff;
   border: 0;
@@ -176,7 +176,7 @@ border-radius: 0px;
   border-radius: 8px;
   cursor: pointer;
 }
-.navbar .links1 {
+.links1 {
   background: orange;
   color: #fff;
   border: 0;
@@ -266,4 +266,99 @@ border-radius: 0px;
   clear: both;
 }
 
+.register{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.register label  {
+  text-align: left;
+  display: block;
+}
+.register h2  {
+  font-size: 20px;
+  color: orange;
+  margin-bottom: 30px;
+}
+.register input, .create textarea, .register select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.register button{
+  background: orange;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.register p {
+ color: orange; }
+
+
+ .login{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.login label  {
+  text-align: left;
+  display: block;
+}
+.login h2  {
+  font-size: 20px;
+  color: orange;
+  margin-bottom: 30px;
+}
+.login input, .create textarea, .register select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.login button{
+  background: orange;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login p {
+ color: orange; }
+
+
+ .links3 {
+  background: orange;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+   width: 100px;
+
+}
+.links4{
+  background: orange;
+  color: #fff;
+  border: 0;
+ 
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100px;
+}
+.hello {
+   color: orange;
+}
 

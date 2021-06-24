@@ -15,7 +15,7 @@ const Navbar = () => {
 
         <nav className="navbar">
           
-            <h1 className="one"> Shoppingify</h1> <h1> allow you take your shopping list whenever you go </h1>
+         
         
           <div className="search" >
             

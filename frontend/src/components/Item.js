@@ -21,6 +21,7 @@ const Login = () => {
     const handleSubmit = (e => {
 
         e.preventDefault();
+        history.push('/home');
 
         const Item = { name, category_id,note , image};
 

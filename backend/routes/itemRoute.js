@@ -58,4 +58,15 @@ router.route('/home').get(async (req, res) => {
     }
 });
 
+router.route('/item').delete(async (req, res) => {
+
+    try {
+        await item.findOneAndDelete({ id: req.body.id });
+        res.send("it was deleted");
+    }
+    catch (error) {
+        res.send(error);
+    }
+});
+
 module.exports = router;

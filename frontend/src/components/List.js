@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import axios from "axios";
+import { useHistory } from "react-router";
 const List = () => {
 
 
@@ -8,11 +9,12 @@ const List = () => {
     const [createdat, setcreatedat] = useState('');
     const [updatedat, setupdatedat] = useState('');
     const [user_id, setuser_id] = useState('');
-
+    const history=useHistory();
 
     const handleSubmit = (e => {
 
         e.preventDefault();
+        history.push('/home');
 
         const List = { name, user_id, createdat, updatedat };
 

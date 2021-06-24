@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
-
+import Navbar from "./Navbar";
+import Barleft from "./Barleft";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -37,7 +39,10 @@ const Home = () => {
     return (
 
       <div className="one">
+       
+       <Navbar/>
 
+       <Barleft/>
 
       <div className="search">
           <input
@@ -51,6 +56,9 @@ const Home = () => {
           <button onClick={handleSubmit} >
             <img src="/images/search.png" alt="" className="imagesearch" />
           </button>
+
+
+         
 
 
 
@@ -76,6 +84,7 @@ const Home = () => {
 
             
              <p><button >Add to list </button></p>
+             <p><button> Delete item </button></p>
             
               </div>)} 
               

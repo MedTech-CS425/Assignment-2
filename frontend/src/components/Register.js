@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState , useHistory } from "react";
 import axios from "axios";
 
 const Register = () => {
@@ -7,15 +7,22 @@ const Register = () => {
     const [email, setemail] = useState('');
     const [password, setpassword] = useState('');
     const [message, setmessage] = useState(false);
-
+  
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+      
+
         const User = { username, email, password};
 
         axios.post('http://localhost:3001/register', User);
+       
 
+        
         setmessage(true)
+
+       
     }
 
 
@@ -51,7 +58,7 @@ const Register = () => {
 
                 <button onClick={handleSubmit}> Sign up </button>
 
-                {message && <h2> Welcome to our website {username}</h2>}
+                {message && <h2> Welcome to our website now please login {username}</h2>}
 
             </form>
 
