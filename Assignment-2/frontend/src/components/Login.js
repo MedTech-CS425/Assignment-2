@@ -27,7 +27,7 @@ const Login = () => {
 
         console.log(email, password)
 
-        axios.post('http://localhost:3001/login', verify).then(function (Response) {
+        axios.post('http://localhost:3000/login', verify).then(function (Response) {
 
 
 
