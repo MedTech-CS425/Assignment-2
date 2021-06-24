@@ -1,28 +1,27 @@
-Assignment #2 & #3
+This project is a Library management app developed for both iOS and android using FLutter/Dart.
+The backend is developed in Node/Express with Mysql database that automatically installs using the db.sql script.
 
-Assignment: Create my Shoppingify app. Use any front-end libraries of your choice. Link it to your API that was done on assignment #1. Fulfill user stories below:
+#Getting Started:
 
-    User story 1: When I select the items tab, I can see a list of items under different categories.
-    User story 2: I can add a new item with name, category, note, and image.
-    User story 3: When I add a new item, I can select one from the existing categories or add a new one if the category does not exist
-    User story 4: When I select an item, I can see its details and I can choose to add the current list or delete the item.
-    User story 5: I can add items to the current list
-    User story 6 (optional): I can increase the number of item in the list
-    User story 7: I can remove the item from the list
-    User story 8: I can save/update the list with a name (user can have only one active list at a time)
-    User story 9: I can toggle between editing state and completing state
-    User story 10: When I am at completing state, I can save my progress by selecting the item
-    User story 11: I can cancel the active list
-    User story 12: When I try to cancel a list, I can see a confirmation notification
-    User story 13: I can see my shopping history and I can see the details of it
-    User story 14 (optional): I can see some statistics: top items, top categories, and monthly comparison. (Tips: use libraries like recharts for the graph)
-    User story (optional): I can search for items
+- Change the server address in mobile/lib/api/session
+- Run the flutter app in your phone using Flutter run command
+- Change the core/pool.js credentials so that you can connect to the database
+- Install dependencies using npm i
+- Run db.sql script
+- npm run
 
-Here is the link to the Figma Design that you need to implement. Also here is the list of steps that you need to follow to achieve this assignment:
+and you're done
 
-    Step 1: Fork and Clone the repository on Github
-    Step 2: Copy resources, README.md to your repository
-    Step 3: Login to Figma to checkout font, color, spacing,..
-    Step 4: Complete all required user stories
-    Step 5: Update README.md
-    Step 6: Deploy your app and submit your solution
+This project handles the required tasks in the assignment but it just uses books instead of items because it might make more sens.
+
+It handles session and stores user data in the phone so that you don't have to connect each time
+
+Users are divided into admins and non admins and only admins can operate on books
+
+Admins might start a chat with any user
+
+------
+
+the connection between the backend and the app is made in the lib/api directory.
+
+Enjoy!  
