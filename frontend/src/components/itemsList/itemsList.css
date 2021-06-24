@@ -82,15 +82,18 @@
 .header div {
     display : inline-flex;
     align-items: center;
+    flex-direction: row;
 }
 .search{
     background: #FFFFFF;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
     border-radius: 12px;
     padding : 16px;
+    display:inline-flex;
 }
 .search input {
     border : none;
+    box-decoration-break: none;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
