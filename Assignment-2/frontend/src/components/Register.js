@@ -13,7 +13,7 @@ const Register = () => {
         e.preventDefault();
         const User = { username, email, password};
 
-        axios.post('http://localhost:3001/register', User);
+        axios.post('http://localhost:3000/register', User);
 
         setmessage(true)
     }
