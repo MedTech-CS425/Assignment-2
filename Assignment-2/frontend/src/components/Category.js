@@ -24,7 +24,7 @@ const   Category= () => {
 
         const Category = { name,user_id, createdat, updatedat };
 
-        axios.post('http://localhost:3001/category', Category)
+        axios.post('http://localhost:3000/category', Category)
     })
 
 
