@@ -1,0 +1,89 @@
+.list {
+    background-color: #fff0de;
+    height: calc(100% - 140px);
+    display: inline-block;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.list-name-input input {
+    float: left;
+    width: auto;
+    margin-right: 0px;
+    width: calc(100% - 66px);
+    height: 60px;
+}
+
+.list-name-input button {
+    float: right;
+    margin-left: 0px;
+    height: 60px;
+}
+
+.list-name-input {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid silver;
+    background-color: white;
+}
+
+
+.list h3 {
+    margin-bottom: 30px;
+}
+
+.active-list-items-list-category {
+    color: gray;
+    font-size: 14px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.active-list-item-card {
+    font-size: 16px;
+    padding-top: 10px;
+    display: inline-block;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.new-item-btn {
+    background-color: #f9a109;
+    border: none !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+}
+
+.new-item-btn:hover {
+    background-color: #d78800;
+}
+
+
+.delete-item-from-list i {
+    color: white;
+    font-size: 15px;
+}
+
+.delete-item-from-list {
+    background-color: #d78800;
+    border-radius: 30px;
+    padding: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.complete-list-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+}
