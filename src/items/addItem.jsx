@@ -49,7 +49,7 @@ export default function AddItem(props) {
           <select id="category"  type="select">
             <option value="Fruits">Fruits</option>
             <option value="Veggie">Veggie</option>
-            <option value="strawberry">fraise</option>
+            <option value="Meat">Meat</option>
           </select>
         </label>
         <br />

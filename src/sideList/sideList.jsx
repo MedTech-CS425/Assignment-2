@@ -32,9 +32,8 @@ export default function SideList(props) {
  function handleSubmit(e){
    e.preventDefault( )
  props.handleChildEdit(input)
- console.log(input);
+
  setIsEditing(false);
- //stuck here cant find a way to acces the html event without too much code smell
  };
  const itemList=(
    props.list.map((elem,index)=>(<div>

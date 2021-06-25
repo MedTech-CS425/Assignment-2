@@ -3,7 +3,7 @@
   height: 50px;
   display: grid;
   grid-template-rows: max-content 200px 1fr;
-  background: #e42727;
+  background: #fafafa;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
   text-align:left;
@@ -23,7 +23,7 @@ margin: 5%;
 .form-group{
   display: grid;
   grid-template-columns: 1fr;
-  background-color: brown;
+  background-color:#FFF0DE;
   min-height:100% ;  
 }
 .form-group label{

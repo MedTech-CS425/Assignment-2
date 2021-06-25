@@ -9,7 +9,7 @@ function SideListView(props){
   return(
   <div key="sideListViewGroupConditional">
    
-    <SideList  category="Fruits" handleChildEdit={props.handleChildEdit}
+    <SideList   handleChildEdit={props.handleChildEdit}
      key="list" list={props.sideList}  setViewToAddItem={props.setViewToAddItem}/>    
     <button  onClick={props.setViewToAddItem}>Add an Item Instead</button>
   </div>)
@@ -24,7 +24,7 @@ function manageList(oldState,category,name){
   let newList=[...oldState];
  const index=newList.findIndex((elem)=>elem.category===category);
  if(index===-1){
-   newList=[...newList,{name,qt:1}];
+   
    throw new Error('unexistant category');
  }else{
    let elemsArray=[...newList[index].elems]
@@ -47,26 +47,17 @@ function App() {
 }
 function handleChildEdit(arrayOfChanges){
   setSideList(arrayOfChanges);
-  //[{name:"apple",qt:1,category:"fruits"}]
-  //[{category:"fruits",elems:[{name,qt}]}]
-  
-
- /*let newArray=sideList;
- let elemsArray=newArray[category].elems;
- let index =elemsArray.findIndex((item)=>item.name===name);
- elemsArray[index].qt=qt;
- newArray.elems=elemsArray;
- setSideList(newArray);*/
+ 
 }
   const [sideList,setSideList]=useState([
     {category:"Fruits",elems:[]},
-    {category:"Veggie",elems:[]}
+    {category:"Veggie",elems:[]},
+    {category:"Meat",elems:[]}
   ]);
   const [curView,setCurView]=useState("addItem")//hold the state of which view we want to show
   //possible Views are addView , itemView, sideListView
 
   function addItemToSideList(category,item) {
-    //when an item is added to a list change setCurView to SideListView if it is not already
     setCurView("sideListView")
     setSideList(manageList(sideList,category,item.name))
     }
@@ -98,7 +89,7 @@ function handleChildEdit(arrayOfChanges){
      let temp=[...itemList];
      let index=temp.findIndex((elem)=>elem.category===itemToAdd.category);
      if(index===-1){
-       throw new Error("cant find category")
+       temp.push({category:itemToAdd.category,elems:[{name:itemToAdd.name}]});
      }else{
        temp[index].elems.push({name:itemToAdd.name});
      }
@@ -135,6 +126,11 @@ function handleChildEdit(arrayOfChanges){
   );
 }
 function ItemView(props){
-  return(<div>{props.item.name}</div>)
+  //this would show info about the the item
+  //doesnt work now since info about the items are not represented for simplicity
+  return(<div>{props.item.name}
+  {props.item?.note}
+  {props.item?.image}
+  </div>)
 }
 export default App;
