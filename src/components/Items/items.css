@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+.wrapper {
+    width : 900px;
+    margin : 30px 80px;
+    margin-right : 10px;
+}
+.categoryWrapper {
+    margin : 20px 0 ;
+}
+.categoryWrapper h1 {
+    text-align: left;
+    margin :10px 10px;
+    font-size: 22px;
+}
+
+.itemsWrapper {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+}
+.itemBtn  {
+    background: #FFFFFF;
+    width: 182px;
+    height: fit-content;
+    margin: 10px 10px;
+
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);   
+     border-radius:12px ;
+    border : none;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-around;
+    cursor : pointer
+}
+.itemsWrapper :hover {
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.05); 
+
+}
+.itemBtn h2 {
+    font-size: 18px;
+}
+.itemBtn span {
+    margin-left: 10px;
+    margin-right: 15;
+    color : #C1C1C4;
+    width:14px;
+}
+
+/* HEADER */
+.header  {
+    display : flex;
+    flex-direction:  row;
+    height : fit-content;
+    align-items: center;
+    margin-bottom:57px;
+}
+.header h2 {
+    width :450px;
+    text-align: start;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+.header h2 span {
+    color : #F9A109;
+}
+
+.header div {
+    display : inline-flex;
+    align-items: center;
+}
+.search{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    padding : 16px;
+}
+.search input {
+    border : none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;    
+    color: #BDBDBD;
+    margin-left:23px;
+}
+
