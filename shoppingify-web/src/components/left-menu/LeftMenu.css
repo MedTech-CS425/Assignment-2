@@ -1,0 +1,21 @@
+.menu {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: calc(100% - 20px);
+    transform: translateY(-50%);
+}
+
+.menu-item {
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.menu-item.active {
+    border-left: 5px #f9a109 solid;
+}

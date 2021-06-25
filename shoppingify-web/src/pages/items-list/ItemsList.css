@@ -1,0 +1,35 @@
+.item-card-container {
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.item-card {
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.item-card-content {
+    width: calc(100% - 20px);
+    display: inline-block;
+}
+
+.items-list-category {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.items-list-category h5 {
+    font-weight: bold;
+}
+
+.item-add-btn {
+    display: inline-block;
+    color: gray;
+}
+
+.item-add-btn i:hover {
+    color: #f9a109;
+}

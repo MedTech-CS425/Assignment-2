@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+    background: none;
+    overflow: hidden;
+}
+
+#root {
+    height: 100%;
+}
+
+.menu-left {
+    background-color: white;
+    height: 100%;
+    width: 100px !important;
+    float: left;
+position: relative;
+}
+
+.main-body {
+    height: 100%;
+    background-color: #fafafe;
+    float: left;
+    position: relative;
+    width: calc(80% - 100px);
+    padding: 50px;
+    overflow: auto;
+}
+
+.right-section {
+    height: 100%;
+    float: left;
+position: relative;
+    width: calc(20%);
+}
+
+.add-item-btn {
+    margin-top: 20%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+}
+
