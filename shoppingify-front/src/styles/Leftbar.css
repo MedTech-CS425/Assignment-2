@@ -1,0 +1,14 @@
+.leftbarWrapper{
+    background: #FFFF;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+}

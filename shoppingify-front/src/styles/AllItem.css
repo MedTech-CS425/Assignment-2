@@ -1,0 +1,45 @@
+.leftbarContainer{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 80%;
+    background-color: #FFF0DE;
+    height: 100%;
+}
+.addItemBox{
+    width: 182px;
+    height: 50px;
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    background: #fafafa;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    text-align:left;
+    text-indent: 10%;
+}
+.addItem{
+    width: 40px;
+    position: relative;
+    left: 70%;
+    bottom: 10%;
+    height: 38px;
+    border-radius: 0%;
+    font-size: 120%;
+    border: transparent;
+    max-width: 40px;
+    max-height: 40px;
+    background: transparent;
+    color: #C1C1C4;
+}
+.shoppingList{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:#FFF0DE;
+    min-height:100% ;  
+}
+
+.save{
+    box-shadow:orange;
+    border-radius: 12px;
+    outline-color: orange;
+}

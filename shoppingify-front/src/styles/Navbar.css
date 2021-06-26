@@ -1,0 +1,59 @@
+.topbarContainer{
+    width: 957,08px;
+    height: 70px;
+    background-color: #FAFAFE;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 999;
+    margin-right: 20%;
+    margin-left: 5%;
+}
+.topbarLeft{
+    flex: 9;
+}
+.logo{
+    font-weight: 700;
+    color: #F9A109;
+}
+.logoDesc{
+    font-weight: 500;
+    text-align: left;
+}
+.topbarRight{
+    flex:5;
+}
+.topbarCenter{
+    flex: 5;
+}
+.searchbar{
+
+    left:350px;
+    display: flex;
+    width: 50%;
+    height:50px;
+    border-radius:12px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04); 
+    padding-right: 20%;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:17px;
+    color: #BDBDBD;
+    align-items: center ;
+}
+.searchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+.searchInput{
+   border: none;
+   width:70%;
+}
+
+.searchInput:focus{
+    outline: none;
+}
