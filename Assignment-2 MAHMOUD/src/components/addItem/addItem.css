@@ -1,0 +1,114 @@
+.addItemPannel {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding:20px;
+    background: none;
+}
+h2 {
+    color : black;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+.addItemPannel label {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin : 24px 0 6px 0;
+}
+.addItemPannel input , select {
+    border: 2px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 309.89px;
+    height: 61.25px;
+    padding: 21px 17px ;
+    color: #BDBDBD;
+    font-size :14px;
+}
+.addItemPannel .btnWrapper {
+    margin : 50px  10px;
+    width: fit-content;
+    display: inline-flex;
+    flex-direction: row;
+}
+.addItemPannel .btnWrapper  button  {
+    background: #F9A109;
+    border-radius: 12px;
+    padding : 20px;
+    border: none;
+    color :white;  
+    cursor: pointer;
+    margin-left:40px;
+    font-size :16px;
+}
+.addItemPannel .btnWrapper :first-child {
+    background :none ;
+    color :black;
+}
+
+.revueItem  {
+    display: flex;
+    flex-direction: column;
+    width:fit-content; 
+}
+.revueItem img {
+    width: 300px ; 
+    align-items: center;
+}
+.revueItem label {
+    margin-top : 30px;
+    color :#828282;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: start;
+}
+.revueItem button {
+    display: inline-flex;
+    font-family: Quicksand;
+    font-style: normal;
+    text-align: left;
+    font-size :14px;
+    line-height :17px;
+    align-items: center;
+    color:#F9A109;
+    cursor:pointer;
+    border:none;
+    background: none;
+    margin: 30px 10px 50px 0;
+}
+
+.revueItem h1  {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: start;
+}
+.revueItem :nth-child(4){
+    margin-top: 15px;
+    font-size: 24px;
+    text-align: start;
+}
+
+.revueItem .btnWrapper {
+    display: inline-flex ;
+    flex-direction: row;
+}
+.revueItem .btnWrapper  button {
+    margin-top: 40px;
+    background: #F9A109;
+    border-radius: 12px;
+    border: none;
+    color: white; 
+    padding: 20px 25px ;
+    font-size:16px;
+    line-height: 20px;
+}
+.revueItem .btnWrapper :first-child {
+    background: none;
+    color: black;
+}
