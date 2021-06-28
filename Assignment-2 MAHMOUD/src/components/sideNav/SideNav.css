@@ -1,0 +1,16 @@
+.SideNav {
+    background: #FFFFFF;
+    height:100vh;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconsWrapper {
+    display : flex;
+    flex-direction : column;
+}
+.iconsWrapper span{
+    margin : 25px 0 ;
+}
