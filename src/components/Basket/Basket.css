@@ -1,0 +1,120 @@
+.basketWrapper {
+    height: fit-content;
+    width : 350px  ;
+    background: #FFF0DE;
+}
+
+.addItemWrapper{
+    width: 290.76px;
+    height: 125px;    
+    background: #80485B;
+    border-radius: 24px;
+    margin : 43px ;
+    display : flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+} 
+.addItemWrapper h2 {
+    text-align: left;
+    margin-left:30px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width:170px;
+    margin-bottom: 13px;
+}
+.addItemWrapper button {
+    margin-left:30px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    border:none;
+    margin : 0;
+    padding : 11px 29px;
+    cursor: pointer;
+}
+.labelWrapper {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.labelWrapper h2 {
+    margin-left:48px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #34333A;
+    padding : 0px ;
+
+
+}
+.labelWrapper span {
+    font-size : 20px;
+    margin-right: 31px;
+}
+.itemWrapper {
+    margin : 0 45px;
+    text-align: left;    
+}
+.itemWrapper h1 {
+    color :#828282;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.infoWrapper {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+.infoWrapper h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.submitBtn {
+    width: 100% ;
+    background: #FFFFFF;
+    padding: 34px 39px;
+}
+.inputWrapper{
+    width:309px;
+    height: 61px;
+    border: 2px solid #F9A109;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.inputWrapper input {
+    border : none;
+    border-radius: 12px;
+    color : #BDBDBD;
+    padding:5px 25px;
+}
+.inputWrapper button {
+    width:100px;
+    border: 0; 
+    background: #F9A109;
+    border-radius: 12px;
+    color : #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.emptyLabel {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #34333A;
+    margin : 100px 0 ;
+} 
